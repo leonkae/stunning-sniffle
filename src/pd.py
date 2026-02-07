@@ -15,4 +15,9 @@ people_data = {
 }
 
 people_df = pd.DataFrame(people_data)
-print(people_df)
+print(people_df)\
+    
+df = pd.read_csv("../data/exam_scores.csv")
+print(df.head()) 
+print(df.tail())
+print(df.describe())
